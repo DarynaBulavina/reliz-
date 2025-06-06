@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #fffafc;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ffccd5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #ffe6eb;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
